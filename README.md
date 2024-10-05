@@ -9,4 +9,4 @@ This is a Java project, and all the JAR files in the jars folder need to be impo
 The file StaticAnalysisTool/src/use/usage.java provides a detailed demonstration of how to use this tool to extract code change types and construct prompts. To construct prompts, a sample set is required, and the sample set used in our experiments is located in the main branch.
 
 ## eval
-This folder is used to evaluate the experimental results, calculate each evaluation metrics. Our experimental results and prompts are stored in the result.zip file in the main branch.
+This folder is used to evaluate the experimental results, calculate each evaluation metrics. Our experimental results and prompts are stored in the result.zip file in the main branch. To evaluate our experimental results, you need to obtain the test.json file from https://github.com/CEPROTest/CEPROT/blob/master/data/gen.zip, which indicates all the test methods that need to be updated in our experiments.
